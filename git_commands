@@ -59,3 +59,39 @@ step3 - master -      m2 m3
 switch to test
 
 git rebase master - m1 m2 m3 t1 t2
+--------------------------------------Merge conflicts-------------------------------------------
+merge conflict....
+apt install vim
+$ vim .git config
+add below lines ---[merge]
+                       tool = vimdiff
+                       
+ ep 4. You could edit the MERGED view the following way
+
+If you want to get changes from REMOTE
+
+:diffg RE
+If you want to get changes from BASE
+
+:diffg BA
+If you want to get changes from LOCAL
+
+:diffg LO
+Step 5. Save, Exit, Commit and Clean up
+
+:wqa save and exit from vi
+
+git commit -m "message"
+
+git clean Remove extra files (e.g. *.orig) created by diff tool.
+
+
+
+------------------------------------------------------Git Flow-------------------------------------
+
+ A git workflow is a recommendation for how to use git to accomplish work in a consistent and productive manner.
+ 1)centralized workflow
+ 2) feature branching
+ 3) gitflow workflow
+ 
+ 
