@@ -13,4 +13,49 @@ git push -u origin master --> to push the local files to remote
 git pull origin master --> the command is used to pull the remote the repo.
 git log 
 git log --oneline 
-----------------------------------------------------------------------------BRANCH------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------BRANCH---------------------------------------------------------------------------------------
+git branch <File_name> --> to create git branch
+git branch --> list of branches
+git checkout <branch_name> --> to switch the git branchess
+git branch -D <branch name> --> to delete the branch
+
+
+
+
+------------------------------------------git stash--------------------------------------------------------
+git stash
+git stash pop
+git stash -u
+git revert <commit ID> 
+git diff <commit id commit id>
+git diff HEAD  difference between the two files and two commits
+-------------------------------------------------------------------------------MERGE-BRANCHES------------------------------------------------
+>>>git merge
+>>>gitrebase
+........................git merge......................
+git log --graph  --pretty --> interms of graph log files.
+git log --graph  --pretty=oneline
+git merge <branch name>
+
+
+
+.................git_rebase....................................
+step1 - master file - m1
+step2 - test        - t1 t2
+step3 - master -      m2 m3
+
+switch to test
+
+git merge master - m1 t1 t2 m2 m3
+
+
+----------------
+ # rebase
+
+step1 - master file - m1
+step2 - test        - t1 t2
+step3 - master -      m2 m3
+
+switch to test
+
+git rebase master - m1 m2 m3 t1 t2
