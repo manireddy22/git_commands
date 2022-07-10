@@ -13,4 +13,4 @@ git push -u origin master --> to push the local files to remote
 git pull origin master --> the command is used to pull the remote the repo.
 git log 
 git log --oneline 
--------BRANCH----------
+----------------------------------------------------------------------------BRANCH------------------------------------------------------------------------------------------
