@@ -1,0 +1,15 @@
+sudo apt-get update 
+sudo apt install git 
+--------------------------------------------------------------------------
+git --version
+git init --> intialize the git repo to working dir
+git add . --> adding all files to staging area(.)
+git add <filename> --> adding particular file to the staging area
+git status --> check the status of the files
+git commit -m "custom message" --> commit the changes.
+git clone --> to clone the remote repo
+git remote add origin "URL" --> to add remote repo to the local 
+git push -u origin master --> to push the local files to remote 
+git pull origin master --> the command is used to pull the remote the repo.
+git log 
+git log --oneline 
