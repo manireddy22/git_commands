@@ -1,0 +1,18 @@
+git init -- intialize git in working directory
+mkdir --  to create floder.
+ls -la -- To see hidden files
+git add . -- to add files to staging area.
+git commit -m "Message" <filename> -- commit 
+git status
+git log -- it will get all commit ids
+HEAD -- Tip of branch Head is pioint to.
+git branch  - create new branch
+git checkout <branch name> - to switch the branch
+git stash
+git remote -v 
+git remote add origin <URL> -- to add remote repo
+git push origin --all -- if you want to push all branches to the remote repo
+git clone -- to clone the remote repo to the local.
+git pull -- to pull new modification
+git fetch --
+
